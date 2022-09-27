@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oFWLa6VZDB5NzzSMDPfnQ-Phsblc',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'vB4bWh6Ju0wRq5RvI6KCSoHupi-8XwpNubDmMOo2VXo',
+      useTemplateId: 'lTGsj5ovQUXannYqDlVmo4f23ETcZ2B49eb_ET_G558',
       // 所在省份
       province: '北京',
       // 所在城市
@@ -82,17 +82,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '1996', date: '09-09',
-        },
-        {
-          type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
-        {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+          type: '*生日', name: '老婆', year: '1993', date: '05-28',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -169,45 +159,6 @@ const USER_CONFIG = {
           ]
         }
       },
-    },
-    {
-      name: '我',
-      id: 'oFWLa6VZDB5NzzSMDPfnQ-Phsblc',
-      useTemplateId: 'lTgNFmqy37yrAvBkuPj1e58WqCtDGNz-4vZrrJMeU6k',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
     }
     // 你可以不断按格式往下增加
     // ...
@@ -218,7 +169,7 @@ const USER_CONFIG = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'lTgNFmqy37yrAvBkuPj1e58WqCtDGNz-4vZrrJMeU6k',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -226,7 +177,7 @@ const USER_CONFIG = {
       // 一般都填自己
       name: '自己',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oFWLa6VZDB5NzzSMDPfnQ-Phsblc',
     }
     // 你可以不断按格式往下增加
     // ...
