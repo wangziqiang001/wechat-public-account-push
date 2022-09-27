@@ -63,15 +63,15 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆0',
+      name: '老婆',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oFWLa6VZDB5NzzSMDPfnQ-Phsblc',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'vB4bWh6Ju0wRq5RvI6KCSoHupi-8XwpNubDmMOo2VXo',
       // 所在省份
-      province: '广东',
+      province: '北京',
       // 所在城市
-      city: '肇庆',
+      city: '北京',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -171,9 +171,9 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
+      name: '我',
+      id: 'oFWLa6VZDB5NzzSMDPfnQ-Phsblc',
+      useTemplateId: 'lTgNFmqy37yrAvBkuPj1e58WqCtDGNz-4vZrrJMeU6k',
       province: '',
       city: '',
       horoscopeDate: '',
